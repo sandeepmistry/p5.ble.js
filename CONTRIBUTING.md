@@ -26,12 +26,12 @@ If you want to help develop this library, here are the steps to get started:
     That should output something similar to this:
 
     ```bash
-    > p5ble@0.0.2 start /Users/yiningshi/dev/p5.ble.js
+    > p5ble@0.0.2 start /Users/ITPNYU/dev/p5.ble.js
     > webpack-dev-server --mode development --config webpack.dev.babel.js
 
     ℹ ｢wds｣: Project is running at http://localhost:8080/
     ℹ ｢wds｣: webpack output is served from /
-    ℹ ｢wds｣: Content not from webpack is served from /Users/yiningshi/dev/p5.ble.js/dist
+    ℹ ｢wds｣: Content not from webpack is served from /Users/ITPNYU/dev/p5.ble.js/dist
     ℹ ｢wdm｣: Hash: 93398258fad8f6aeebb2
     Version: webpack 4.28.2
     Time: 2108ms
@@ -70,7 +70,7 @@ If you want to help develop this library, here are the steps to get started:
 
 4. Develop!
 
-  Go to [https://github.com/yining1023/p5-ble-examples](https://github.com/yining1023/p5-ble-examples). Create a new folder called `/yourExample` in the project's `p5_sketches` folder. Create an `index.html` file inside `/yourExample` and add the following:
+  Go to [https://github.com/ITPNYU/p5-ble-examples](https://github.com/ITPNYU/p5-ble-examples). Create a new folder called `/yourExample` in the project's `p5_sketches` folder. Create an `index.html` file inside `/yourExample` and add the following:
 
   ```html
   <!DOCTYPE html>
