@@ -1,4 +1,4 @@
-# [p5.ble.js](https://yining1023.github.io/p5ble-website)
+# [p5.ble.js](https://itpnyu.github.io/p5ble-website/)
 [![MIT License](https://img.shields.io/npm/l/express.svg?style=flat-square&registry_uri=https%3A%2F%2Fregistry.npmjs.com)](https://opensource.org/licenses/MIT) [![Version](https://img.shields.io/npm/v/p5ble.svg?style=flat-square)](https://www.npmjs.com/package/p5ble)
 
 **_This project is currently in development._**
@@ -19,19 +19,19 @@ Download the [minified](https://unpkg.com/p5ble@latest/dist/p5.ble.min.js), or u
 ```
 or 
 ```javascript
-<script src="https://unpkg.com/p5ble@latest/dist/p5.ble.min.js" type="text/javascript"></script>
+<script src="https://unpkg.com/p5ble@0.0.4/dist/p5.ble.js" type="text/javascript"></script>
 ```
 
 ## Resources
 
-- [Getting Started](https://yining1023.github.io/p5ble-website/docs/getstarted)
-- [API Reference](https://yining1023.github.io/p5ble-website/docs/api)
-- [Examples](https://yining1023.github.io/p5ble-website/docs/quick-start)
-- [Tutorials](http://localhost:3000/p5ble-website/blog/)
+- [Getting Started](https://ITPNYU.github.io/p5ble-website/docs/getstarted)
+- [API Reference](https://ITPNYU.github.io/p5ble-website/docs/api)
+- [Examples](https://ITPNYU.github.io/p5ble-website/docs/quick-start)
+- [Tutorials](https://ITPNYU.github.io/p5ble-website/blog/)
 
 ## Standalone Examples
 
-You can find a collection of standalone examples in this repository: [p5-ble-examples](https://github.com/yining1023/p5-ble-examples) 
+You can find a collection of standalone examples in this repository: [p5-ble-examples](https://github.com/ITPNYU/p5-ble-examples) 
 
 ## Contributing
 
