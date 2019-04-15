@@ -22,6 +22,9 @@ or
 <script src="https://unpkg.com/p5ble@0.0.4/dist/p5.ble.js" type="text/javascript"></script>
 ```
 
+## Browser compatibility
+p5.ble.js is based on Web Bluetooth API, checkout Web Bluetooth API's [browser compatibility](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API#Browser_compatibility) and [implementation status](https://github.com/WebBluetoothCG/web-bluetooth/blob/master/implementation-status.md).
+
 ## Resources
 
 - [Getting Started](https://ITPNYU.github.io/p5ble-website/docs/getstarted)
