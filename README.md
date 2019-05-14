@@ -8,7 +8,8 @@ A Javascript library that enables communication between your BLE devices and you
 The library is supported by code examples, tutorials that cover many popular Bluetooth LE devices.
 
 p5.ble.js is inspired by [p5.serialport](https://github.com/vanevery/p5.serialport), [p5.js](https://p5js.org/), [Web Bluetooth API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API), and [Processing Serial Library](https://processing.org/reference/libraries/serial/index.html).
-.
+
+This project is a collaboration between [Jingwen Zhu](https://github.com/zhujingwen), [Tom Igoe](https://github.com/tigoe) and [Yining Shi](https://github.com/yining1023).
 
 ## Usage
 
