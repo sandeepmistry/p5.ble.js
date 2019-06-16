@@ -1,9 +1,3 @@
-// Copyright (c) 2018 p5ble
-//
-// This software is released under the MIT License.
-// https://opensource.org/licenses/MIT
-
-// The serviceUuid must match the serviceUuid of the device you would like to connect
 const serviceUuid = "19b10010-e8f2-537e-4f6c-d104768a1214";
 const characteristicsUUID = {
   button:"19b10013-e8f2-537e-4f6c-d104768a1214",
@@ -16,7 +10,8 @@ let sensorValue = 0;
 let myBLE;
 
 function setup() {
-  // Create a p5ble class
+  createCanvas(400, 400);
+    // Create a p5ble class
   myBLE = new p5ble();
 
   createCanvas(600, 400);
@@ -26,10 +21,16 @@ function setup() {
   // Create a 'Connect and Start Notifications' button
   const connectButton = createButton('Connect and Start Notifications')
   connectButton.mousePressed(connectAndStartNotify);
+}
 
-  // // Create a 'Stop Notifications' button
-  // const stopButton = createButton('Stop Notifications')
-  // stopButton.mousePressed(stopNotifications);
+function draw() {
+   noStroke();
+
+  if(buttonValue>0){
+    fill(color(200, 200, 200));
+  }else{
+    fill(color(100, 200, 200));
+  }
 }
 
 function connectAndStartNotify() {
@@ -64,25 +65,12 @@ function gotCharacteristics(error, characteristics) {
 
 // A function that will be called once got characteristics
 function handleButton(data) {
-  console.log('data: ', data);
+  //console.log('data: ', data);
   buttonValue = Number(data);
 }
 
 function handleSensor(data) {
-  console.log('data: ', data);
+  //console.log('data: ', data);
   sensorValue = Number(data);
-}
-
-function draw() {
-  noStroke();
-
-  if(buttonValue>0){
-    fill(color(200, 200, 200));
-  }else{
-    fill(color(100, 200, 200));
-
-  }
-
-  
-  ellipse(sensorValue, 100, 20, 20);
+  rect(sensorValue-1, 0, sensorValue+1, height);
 }

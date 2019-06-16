@@ -21,7 +21,7 @@ const int ledPin = LED_BUILTIN; // pin to use for the LED
 
 void setup() {
   Serial.begin(9600);
-  while (!Serial);
+  //while (!Serial);
 
   // set LED pin to output mode
   pinMode(ledPin, OUTPUT);
