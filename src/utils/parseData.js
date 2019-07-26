@@ -54,6 +54,11 @@ export default function parseData(data, t, encoding) {
       result = decoder.decode(data);
       break;
 
+    case 'custom':
+      // let the user do the parsing
+      result = data;
+      break;
+
     default:
       result = data.getUint8(0);
       break;
