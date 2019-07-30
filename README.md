@@ -26,6 +26,10 @@ or
 ## Browser compatibility
 p5.ble.js is based on Web Bluetooth API, checkout Web Bluetooth API's [browser compatibility](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API#Browser_compatibility) and [implementation status](https://github.com/WebBluetoothCG/web-bluetooth/blob/master/implementation-status.md).
 
+## Learning
+- ITP Physical Computing [Lab: Bluetooth LE and p5.ble](https://itp.nyu.edu/physcomp/labs/lab-bluetooth-le-and-p5-ble)
+- p5.ble Workshop [Slides](https://docs.google.com/presentation/d/1qkzMBh1A0eyD_W9J3G1VoI08VGDkVDUKFC5-pi1aUbc/edit?usp=sharing), [examples](./workshop)
+
 ## Resources
 
 - [Getting Started](https://ITPNYU.github.io/p5ble-website/docs/getstarted)
@@ -33,9 +37,8 @@ p5.ble.js is based on Web Bluetooth API, checkout Web Bluetooth API's [browser c
 - [Examples](https://ITPNYU.github.io/p5ble-website/docs/quick-start)
 - [Tutorials](https://ITPNYU.github.io/p5ble-website/blog/)
 
-## Standalone Examples
-
-You can find a collection of standalone examples in this repository: [p5-ble-examples](https://github.com/ITPNYU/p5-ble-examples) 
+## Examples
+You can find a collection of examples in the [examples](./examples) folder in this repository.
 
 ## Contributing
 
