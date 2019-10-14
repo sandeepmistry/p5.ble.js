@@ -33,11 +33,19 @@ export default function parseData(data, t, encoding) {
       break;
 
     case 'float32':
-      result = data.getFloat32(0, true); // 'littleEndian' works too
+      result = data.getFloat32(0, true); // littleEndian
+      break;
+
+    case 'float32-bigEndian':
+      result = data.getFloat32(0); // BigEndian
       break;
 
     case 'float64':
-      result = data.getFloat64(0, true); // 'littleEndian' works too
+      result = data.getFloat64(0, true); // littleEndian
+      break;
+
+    case 'float64-bigEndian':
+      result = data.getFloat64(0); // BigEndian
       break;
 
     case 'string':
