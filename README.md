@@ -20,7 +20,7 @@ Download the [minified](https://unpkg.com/p5ble@latest/dist/p5.ble.min.js), or u
 ```
 or 
 ```javascript
-<script src="https://unpkg.com/p5ble@0.0.4/dist/p5.ble.js" type="text/javascript"></script>
+<script src="https://unpkg.com/p5ble@0.0.5/dist/p5.ble.js" type="text/javascript"></script>
 ```
 
 ## Browser compatibility
